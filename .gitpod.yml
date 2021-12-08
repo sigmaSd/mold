@@ -1,0 +1,7 @@
+tasks:
+- init: >
+    sudo apt-get update;
+    sudo apt-get install -y build-essential git clang cmake libstdc++-10-dev libssl-dev libxxhash-dev zlib1g-dev;
+    git checkout v1.0.1;
+    make -j16;
+    sudo make install;

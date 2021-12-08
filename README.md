@@ -1,3 +1,6 @@
+# Fork:
+Compile automaticly with gitpod https://gitpod.io/#https://github.com/sigmaSd/mold
+
 # mold: A Modern Linker
 
 mold is a faster drop-in replacement for existing Unix linkers.
